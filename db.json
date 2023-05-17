@@ -1,8 +1,216 @@
 {
+  "hoteles": [
+    {
+      "id": "1",
+      "nombre": "Hotel Castillo Real",
+      "ubicacion": "Pereira",
+      "habilitado": true,
+      "reservas": [
+        {
+          "id": 1,
+          "hotel": "Hotel Castillo Real",
+          "ubicacion": "Piso 1, Habitación 101",
+          "fechaInicio": "2023-05-15",
+          "fechaFin": "2023-05-20",
+          "cantidadPersonas": 2,
+          "valor": 120,
+          "pasajeros": [
+            {
+              "tipoDocumento": "Cedula de ciudadania",
+              "documento": 101023,
+              "nombres": "Juan",
+              "apellidos": "Pelaez Vasquez",
+              "fechaNacimiento": "1989-05-15",
+              "genero": "Masculino",
+              "email": "Juan@gmail.com",
+              "telefono": "3135252252"
+            },
+            {
+              "tipoDocumento": "Cedula de ciudadania",
+              "documento": 101023,
+              "nombres": "Maria",
+              "apellidos": "Lopez Lopez",
+              "fechaNacimiento": "1989-07-15",
+              "genero": "Femenino",
+              "email": "maria@gmail.com",
+              "telefono": "3125252252"
+            }
+          ],
+          "contactoEmergencia": [
+            {
+              "nombreCompleto": "Jorge Pelaez",
+              "telefono": 101023
+            }
+          ]
+        },
+        {
+          "id": null,
+          "hotel": "Hotel Castillo Real",
+          "ubicacion": "Piso 1, Habitación 101",
+          "fechaInicio": "2023-05-17T05:00:00.000Z",
+          "fechaFin": "2023-05-18T05:00:00.000Z",
+          "cantidadPersonas": 1,
+          "valor": 120,
+          "pasajeros": [
+            {
+              "tipoDocumento": "Cedula de extranjeria",
+              "documento": "3421312",
+              "nombres": "Diego",
+              "apellidos": "calvera",
+              "fechaNacimiento": "2023-05-02T05:00:00.000Z",
+              "genero": "Masculino",
+              "email": "aaaa@aaaa",
+              "telefono": "2312412"
+            }
+          ],
+          "contactoEmergencia": [
+            {
+              "nombreCompleto": "mary",
+              "telefono": "23432412"
+            }
+          ]
+        }
+      ],
+      "habitaciones": [
+        {
+          "costoBase": 100,
+          "impuestos": 20,
+          "tipo": "Individual",
+          "habilitada": true,
+          "maxPersonas": 1,
+          "ubicacion": "Piso 1, Habitación 101"
+        },
+        {
+          "costoBase": 150,
+          "impuestos": 30,
+          "tipo": "Doble",
+          "habilitada": true,
+          "maxPersonas": 2,
+          "ubicacion": "Piso 2, Habitación 201"
+        },
+        {
+          "costoBase": 150,
+          "impuestos": 30,
+          "tipo": "Doble",
+          "habilitada": true,
+          "maxPersonas": 2,
+          "ubicacion": "Piso 3, Habitación 302"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Hotel Paraiso",
+      "ubicacion": "Cali",
+      "habilitado": true,
+      "reservas": [
+        {
+          "id": 3,
+          "documento": 101023,
+          "nombreCompleto": "Juan Pelaez",
+          "hotel": "Hotel Paraiso",
+          "ubicacion": "Piso 1, Habitación 102",
+          "fechaInicio": "2023-05-15",
+          "fechaFin": "2023-05-20",
+          "cantidadPersonas": 1,
+          "valor": 145,
+          "pasajeros": [
+            {
+              "tipoDocumento": "Cedula de ciudadania",
+              "documento": 101023,
+              "nombres": "Juan",
+              "apellidos": "Pelaez Vasquez",
+              "fechaNacimiento": "1989-05-15",
+              "genero": "Masculino",
+              "email": "Juan@gmail.com",
+              "telefono": "3135252252"
+            },
+            {
+              "tipoDocumento": "Cedula de ciudadania",
+              "documento": 101023,
+              "nombres": "Maria",
+              "apellidos": "Lopez Lopez",
+              "fechaNacimiento": "1989-07-15",
+              "genero": "Femenino",
+              "email": "maria@gmail.com",
+              "telefono": "3125252252"
+            }
+          ],
+          "contactoEmergencia": [
+            {
+              "nombreCompleto": "Jorge Pelaez",
+              "telefono": 101023
+            }
+          ]
+        }
+      ],
+      "habitaciones": [
+        {
+          "costoBase": 120,
+          "impuestos": 25,
+          "tipo": "Individual",
+          "habilitada": true,
+          "maxPersonas": 1,
+          "ubicacion": "Piso 1, Habitación 102"
+        },
+        {
+          "costoBase": 180,
+          "impuestos": 35,
+          "tipo": "Doble",
+          "habilitada": false,
+          "maxPersonas": 2,
+          "ubicacion": "Piso 2, Habitación 202"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Hotel Floral",
+      "ubicacion": "Popayan",
+      "habilitado": false,
+      "reservas": [],
+      "habitaciones": [
+        {
+          "costoBase": 120,
+          "impuestos": 25,
+          "tipo": "Individual",
+          "habilitada": false,
+          "maxPersonas": 1,
+          "ubicacion": "Piso 1, Habitación 102"
+        },
+        {
+          "costoBase": 180,
+          "impuestos": 35,
+          "tipo": "Doble",
+          "habilitada": true,
+          "maxPersonas": 2,
+          "ubicacion": "Piso 2, Habitación 202"
+        }
+      ]
+    },
+    {
+      "id": "nr6xFP2",
+      "nombre": "nuevo",
+      "ubicacion": "pereira",
+      "habilitado": true,
+      "reservas": [],
+      "habitaciones": [
+        {
+          "costoBase": 111,
+          "impuestos": 222,
+          "tipo": "sss",
+          "habilitada": true,
+          "maxPersonas": 2,
+          "ubicacion": "sadaa"
+        }
+      ]
+    }
+  ],
   "users": [
     {
-      "username": "diego",
-      "password": "calvera"
+      "email": "diego@gmail.com",
+      "password": "$2a$10$UHSh4v6s7NMJUXEo5prcn.Ph4xZDqUyisl5.geXE8rmp78hKjH3gG",
+      "id": 1
     }
   ]
 }
